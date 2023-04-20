@@ -1,0 +1,16 @@
+html {
+    /* 0.0625 * 16px = 1 (i.e., 1rem = 1px) */
+    font-size: 6.25%;
+  }
+  body {
+    /* resolves to 16px */
+    font-size: 16rem;
+  }
+  h2 {
+    /* resolves to 24px */
+    font-size: 24rem;
+  }
+  h1 {
+    /* resolves to 40px */
+    font-size: 40rem;
+  }

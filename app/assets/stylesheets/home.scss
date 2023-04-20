@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-image-monkey {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.group-philosophy {
+    margin: 0;
+    padding: 10%;
+    width: 100%;
+    height: 100%;  
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes-philosophy {
+    padding-left: 10%;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    height: 30vh;
+    width: 50vh;
+    margin: 2px;
+    padding: 3px;
+}
+
+.box-image {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
